@@ -54,6 +54,10 @@ keymap("n", "<C-s>", ":w<CR>", opts)
 -- alternate way to quit
 keymap("n", "<C-Q>", ":wq!<CR>", opts)
 
+keymap("n", "<c-p>", "<cmd>Telescope find_files<cr>", opts)
+-- keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
+-- keymap("n", "<c-p>", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
+-- keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
 
 -- Insert --
 -- Press jk fast to enter keymap("i", "jk", "<ESC>", opts)
