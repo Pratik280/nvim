@@ -61,6 +61,10 @@ return packer.startup(function(use)
   use 'kyazdani42/nvim-web-devicons'
   use 'kyazdani42/nvim-tree.lua'
 
+  -- bufferline
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
+
   -- colorscheme
   use 'shaunsingh/nord.nvim'
   use "lunarvim/darkplus.nvim"
