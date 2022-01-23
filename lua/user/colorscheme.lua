@@ -1,4 +1,4 @@
-local colorscheme = "onedark" -- nvcode onedark nord aurora gruvbox palenight snazzy xoria
+local colorscheme = "nord-dark" -- nvcode onedark nord aurora gruvbox palenight snazzy xoria
 
 -- Example config in lua 
 -- vim.g.nord_contrast = true

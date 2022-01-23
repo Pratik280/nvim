@@ -78,6 +78,7 @@ return packer.startup(function(use)
   -- use "lunarvim/darkplus.nvim"
   -- use 'gruvbox-community/gruvbox'
   use 'ChristianChiarulli/nvcode-color-schemes.vim'
+  use 'Pratik280/nord-vim'
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
