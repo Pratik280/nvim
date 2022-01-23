@@ -51,8 +51,15 @@ return packer.startup(function(use)
   -- autopairs
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
 
+  -- commenting
+  use "numToStr/Comment.nvim" -- Easily comment stuff
+
   -- markdown 
   use {'iamcco/markdown-preview.nvim', run = 'cd app && yarn install', cmd = 'MarkdownPreview'}
+
+  -- tree (explorer)
+  use 'kyazdani42/nvim-web-devicons'
+  use 'kyazdani42/nvim-tree.lua'
 
   -- colorscheme
   use 'shaunsingh/nord.nvim'
@@ -79,12 +86,16 @@ return packer.startup(function(use)
   use "nvim-telescope/telescope.nvim"
   use 'nvim-telescope/telescope-media-files.nvim'
 
-    -- Treesitter
+  -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
-  use "p00f/nvim-ts-rainbow"
+  -- use "p00f/nvim-ts-rainbow"
+  use 'JoosepAlviste/nvim-ts-context-commentstring'
+
+  -- Git
+  use "lewis6991/gitsigns.nvim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
