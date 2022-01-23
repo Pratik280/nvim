@@ -55,7 +55,8 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim" -- Easily comment stuff
 
   -- markdown 
-  use {'iamcco/markdown-preview.nvim', run = 'cd app && yarn install', cmd = 'MarkdownPreview'}
+  -- use {'iamcco/markdown-preview.nvim', run = 'cd app && yarn install', cmd = 'MarkdownPreview'}
+  use { 'iamcco/markdown-preview.nvim', ft = 'markdown', run = 'cd app && yarn install' }
 
   -- tree (explorer)
   use 'kyazdani42/nvim-web-devicons'
@@ -65,9 +66,18 @@ return packer.startup(function(use)
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
 
+  -- lualine
+  use 'nvim-lualine/lualine.nvim'
+
+  -- vimwiki
+  use "vimwiki/vimwiki"
+
   -- colorscheme
-  use 'shaunsingh/nord.nvim'
-  use "lunarvim/darkplus.nvim"
+  -- use 'shaunsingh/nord.nvim'
+  -- use "arcticicestudio/nord-vim"
+  -- use "lunarvim/darkplus.nvim"
+  -- use 'gruvbox-community/gruvbox'
+  use 'ChristianChiarulli/nvcode-color-schemes.vim'
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -93,7 +103,7 @@ return packer.startup(function(use)
   -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",
-    run = ":TSUpdate",
+    -- run = ":TSUpdate",
   }
   -- use "p00f/nvim-ts-rainbow"
   use 'JoosepAlviste/nvim-ts-context-commentstring'
