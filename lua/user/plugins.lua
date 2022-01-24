@@ -77,8 +77,9 @@ return packer.startup(function(use)
   -- use "arcticicestudio/nord-vim"
   -- use "lunarvim/darkplus.nvim"
   -- use 'gruvbox-community/gruvbox'
-  use 'ChristianChiarulli/nvcode-color-schemes.vim'
-  use 'Pratik280/nord-vim'
+  -- use 'ChristianChiarulli/nvcode-color-schemes.vim' -- nvcode onedark nord aurora gruvbox palenight snazzy xoria
+  -- use 'Pratik280/nord-vim' -- nord-dark
+  use 'shaunsingh/nord.nvim'  -- nord
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
