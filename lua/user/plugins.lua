@@ -72,6 +72,9 @@ return packer.startup(function(use)
   -- vimwiki
   use "vimwiki/vimwiki"
 
+  -- goyo
+  use "junegunn/goyo.vim"
+
   -- colorscheme
   -- use 'shaunsingh/nord.nvim'
   -- use "arcticicestudio/nord-vim"

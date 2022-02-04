@@ -50,5 +50,6 @@ vim.cmd "set noswapfile"
 vim.cmd "set nohlsearch"
 vim.cmd "set t_Co=256"
 vim.cmd "let g:vimwiki_list = [{'path': '~/00MAIN/00MAIN/vimwiki/' }]"
+vim.cmd "let g:goyo_width=120"
 -- vim.cmd [[set iskeyword+=-]]
 vim.cmd [[set formatoptions-=cro]] -- TODO: this doesn't seem to work

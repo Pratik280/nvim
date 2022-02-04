@@ -66,6 +66,9 @@ keymap("n", "<leader>f", ":Format<cr>", opts)
 vim.cmd "inoremap jk <Esc>"
 vim.cmd "inoremap kj <Esc>"
 
+-- goyo
+keymap("n", "<leader>gy", ":Goyo<CR>", opts)
+
 -- Visual --
 -- Stay in indent mode
 keymap("v", "<", "<gv", opts)
