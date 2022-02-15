@@ -69,6 +69,9 @@ vim.cmd "inoremap kj <Esc>"
 -- goyo
 keymap("n", "<leader>gy", ":Goyo<CR>", opts)
 
+-- lazygit
+keymap("n", "<leader>lg", ":LazyGit<CR>", opts)
+
 -- git
 keymap("n", "<leader>gg", ":LazyGit<CR>", opts)
 
