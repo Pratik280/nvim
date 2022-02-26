@@ -51,6 +51,9 @@ return packer.startup(function(use)
   -- autopairs
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
 
+  -- vim surround
+  use "tpope/vim-surround"
+
   -- commenting
   use "numToStr/Comment.nvim" -- Easily comment stuff
 
