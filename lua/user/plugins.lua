@@ -79,13 +79,10 @@ return packer.startup(function(use)
   use "junegunn/goyo.vim"
 
   -- colorscheme
-  -- use 'shaunsingh/nord.nvim'
-  -- use "arcticicestudio/nord-vim"
   -- use "lunarvim/darkplus.nvim"
-  -- use 'gruvbox-community/gruvbox'
+  use 'martinsione/darkplus.nvim'
   -- use 'ChristianChiarulli/nvcode-color-schemes.vim' -- nvcode onedark nord aurora gruvbox palenight snazzy xoria
-  -- use 'Pratik280/nord-vim' -- nord-dark
-  use 'shaunsingh/nord.nvim'  -- nord
+  -- use 'shaunsingh/nord.nvim'  -- nord
 
   -- git
   use "kdheepak/lazygit.nvim"
