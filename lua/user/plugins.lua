@@ -81,6 +81,8 @@ return packer.startup(function(use)
   -- colorscheme
   -- use "lunarvim/darkplus.nvim"
   use 'martinsione/darkplus.nvim'
+  use 'eddyekofo94/gruvbox-flat.nvim'
+  -- use 'bluz71/vim-moonfly-colors'
   -- use 'ChristianChiarulli/nvcode-color-schemes.vim' -- nvcode onedark nord aurora gruvbox palenight snazzy xoria
   -- use 'shaunsingh/nord.nvim'  -- nord
 
