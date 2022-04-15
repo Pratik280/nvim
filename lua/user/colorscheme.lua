@@ -1,5 +1,5 @@
+-- local colorscheme = "gruvbox-flat" -- nvcode onedark nord aurora gruvbox palenight snazzy xoria gruvbox-flat darkplus moonfly
 local colorscheme = "gruvbox-flat" -- nvcode onedark nord aurora gruvbox palenight snazzy xoria gruvbox-flat darkplus moonfly
--- local colorscheme = "darkplus" -- nvcode onedark nord aurora gruvbox palenight snazzy xoria gruvbox-flat darkplus moonfly
 
 -- Example config in lua 
 -- vim.g.nord_contrast = true
